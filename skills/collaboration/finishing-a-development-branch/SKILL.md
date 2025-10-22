@@ -50,7 +50,11 @@ Or ask: "This branch split from main - is that correct?"
 
 ### Step 3: Present Options
 
-Present exactly these 4 options:
+If the work was done on the main/master branch:
+1. Verify that all the recent sequential commits were part of this work.
+2. If so, squash those commits into a single commit which describes the change.
+
+If the work was done on a different branch, present exactly these 4 options:
 
 ```
 Implementation complete. What would you like to do?
@@ -197,6 +201,3 @@ git worktree remove <worktree-path>
 **Called by:**
 - skills/collaboration/subagent-driven-development (Step 7)
 - skills/collaboration/executing-plans (Step 5)
-
-**Pairs with:**
-- skills/collaboration/using-git-worktrees (created the worktree)

@@ -33,14 +33,7 @@ Transform rough ideas into fully-formed designs through structured questioning a
 - Cover: Architecture, components, data flow, error handling, testing
 - Ask after each section: "Does this look right so far?"
 
-### Phase 4: Worktree Setup (for implementation)
-When design is approved and implementation will follow:
-- Announce: "I'm using the Using Git Worktrees skill to set up an isolated workspace."
-- Switch to skills/collaboration/using-git-worktrees
-- Follow that skill's process for directory selection, safety verification, and setup
-- Return here when worktree ready
-
-### Phase 5: Planning Handoff
+### Phase 4: Planning Handoff
 Ask: "Ready to create the implementation plan?"
 
 When your human partner confirms (any affirmative response):
