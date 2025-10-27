@@ -9,7 +9,8 @@ Community-editable skills for Claude Code's superpowers plugin.
 
 ## Installation
 
-This repository is automatically cloned by the superpowers plugin to `~/.config/superpowers/skills/`.
+Symlink the skills directory to .claude/skills
+`ln -s ./skills ~/.claude/skills`
 
 ## Contributing
 
