@@ -65,7 +65,7 @@ Task tool (general-purpose):
 **Dispatch code-reviewer subagent:**
 ```
 Task tool (code-reviewer):
-  Use template at skills/collaboration/requesting-code-review/code-reviewer.md
+  Use template at skills/requesting-code-review/code-reviewer.md
 
   WHAT_WAS_IMPLEMENTED: [from subagent's report]
   PLAN_OR_REQUIREMENTS: Task N from [plan-file]
@@ -105,7 +105,7 @@ After all tasks complete, dispatch final code-reviewer:
 
 After final review passes:
 - Announce: "I'm using the Finishing a Development Branch skill to complete this work."
-- Switch to skills/collaboration/finishing-a-development-branch
+- Switch to skills/finishing-a-development-branch
 - Follow that skill to verify tests, present options, execute choice
 
 ## Example Workflow
@@ -178,11 +178,11 @@ Done!
 ## Integration
 
 **Pairs with:**
-- skills/collaboration/writing-plans (creates the plan)
-- skills/collaboration/requesting-code-review (review template)
-- skills/testing/test-driven-development (subagents follow this)
+- skills/writing-plans (creates the plan)
+- skills/requesting-code-review (review template)
+- skills/test-driven-development (subagents follow this)
 
 **Alternative to:**
-- skills/collaboration/executing-plans (parallel session)
+- skills/executing-plans (parallel session)
 
-See code-reviewer template: skills/collaboration/requesting-code-review/code-reviewer.md
+See code-reviewer template: skills/requesting-code-review/code-reviewer.md

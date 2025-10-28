@@ -38,7 +38,7 @@ Ask: "Ready to create the implementation plan?"
 
 When your human partner confirms (any affirmative response):
 - Announce: "I'm using the Writing Plans skill to create the implementation plan."
-- Switch to skills/collaboration/writing-plans skill
+- Switch to skills/writing-plans skill
 - Create detailed plan in the worktree
 
 ## When to Revisit Earlier Phases
@@ -54,10 +54,10 @@ When your human partner confirms (any affirmative response):
 ## Related Skills
 
 **During exploration:**
-- When approaches have genuine trade-offs: skills/architecture/preserving-productive-tensions
+- When approaches have genuine trade-offs: skills/preserving-productive-tensions
 
 **Before proposing changes to existing code:**
-- Understand why it exists: skills/research/tracing-knowledge-lineages
+- Understand why it exists: skills/tracing-knowledge-lineages
 
 ## Remember
 - One question per message during Phase 1

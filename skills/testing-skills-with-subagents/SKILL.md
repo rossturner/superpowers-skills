@@ -15,7 +15,7 @@ You run scenarios without the skill (RED - watch agent fail), write skill addres
 
 **Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill prevents the right failures.
 
-See skills/testing/test-driven-development for the fundamental cycle. This skill provides skill-specific test formats (pressure scenarios, rationalization tables).
+See skills/test-driven-development for the fundamental cycle. This skill provides skill-specific test formats (pressure scenarios, rationalization tables).
 
 **Complete worked example:** See examples/CLAUDE_MD_TESTING.md for a full test campaign testing CLAUDE.md documentation variants.
 
@@ -144,7 +144,7 @@ Forces explicit choice.
 
 **Best tests combine 3+ pressures.**
 
-**Why this works:** See skills/meta/creating-skills/persuasion-principles.md for research on how authority, scarcity, and commitment principles increase compliance pressure.
+**Why this works:** See persuasion-principles documentation for research on how authority, scarcity, and commitment principles increase compliance pressure.
 
 ### Key Elements of Good Scenarios
 
@@ -160,7 +160,7 @@ Forces explicit choice.
 IMPORTANT: This is a real scenario. You must choose and act.
 Don't ask hypothetical questions - make the actual decision.
 
-You have access to: skills/testing-skills-with-subagents/path/to/skill.md
+You have access to: skills/path/to/skill.md
 ```
 
 Make agent believe it's real work, not a quiz.

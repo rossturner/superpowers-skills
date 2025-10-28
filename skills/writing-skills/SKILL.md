@@ -18,7 +18,7 @@ You write test cases (pressure scenarios with subagents), watch them fail (basel
 
 **Core principle:** If you didn't watch an agent fail without the skill, you don't know if the skill teaches the right thing.
 
-See skills/testing/test-driven-development for the fundamental RED-GREEN-REFACTOR cycle. This skill adapts TDD to documentation.
+See skills/test-driven-development for the fundamental RED-GREEN-REFACTOR cycle. This skill adapts TDD to documentation.
 
 ## What is a Skill?
 
@@ -163,7 +163,7 @@ when_to_use: when using React Router and handling authentication redirects
 
 **Example find-skills output:**
 ```
-Use skills/testing/condition-based-waiting/SKILL.md when tests have race conditions, timing dependencies, or pass/fail inconsistently
+Use skills/condition-based-waiting/SKILL.md when tests have race conditions, timing dependencies, or pass/fail inconsistently
 ```
 
 ### 2. Keyword Coverage
@@ -260,9 +260,9 @@ Grep hits from multiple places = easier discovery
 **When writing documentation that references other skills:**
 
 Use path format without `@` prefix or `/SKILL.md` suffix:
-- ✅ Good: `skills/testing/test-driven-development`
-- ✅ Good: `skills/debugging/systematic-debugging`
-- ❌ Bad: `@skills/testing/test-driven-development/SKILL.md` (force-loads, burns context)
+- ✅ Good: `skills/test-driven-development`
+- ✅ Good: `skills/systematic-debugging`
+- ❌ Bad: `@skills/test-driven-development/SKILL.md` (force-loads, burns context)
 
 **Why no @ links:** `@` syntax force-loads files immediately, consuming 200k+ context before you need them.
 
@@ -365,7 +365,7 @@ Edit skill without testing? Same violation.
 - Don't "adapt" while running tests
 - Delete means delete
 
-See skills/testing/test-driven-development for why this matters. Same principles apply to documentation.
+See skills/test-driven-development for why this matters. Same principles apply to documentation.
 
 ## Testing All Skill Types
 

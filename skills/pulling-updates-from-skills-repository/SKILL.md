@@ -107,7 +107,7 @@ git stash pop
 
 Run:
 ```bash
-${SUPERPOWERS_SKILLS_ROOT}/skills/using-skills/find-skills
+${SUPERPOWERS_SKILLS_ROOT}/skills/find-skills
 ```
 
 Expected: Skills list displays correctly

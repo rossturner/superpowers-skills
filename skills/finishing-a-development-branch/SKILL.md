@@ -199,5 +199,5 @@ git worktree remove <worktree-path>
 ## Integration
 
 **Called by:**
-- skills/collaboration/subagent-driven-development (Step 7)
-- skills/collaboration/executing-plans (Step 5)
+- skills/subagent-driven-development (Step 7)
+- skills/executing-plans (Step 5)

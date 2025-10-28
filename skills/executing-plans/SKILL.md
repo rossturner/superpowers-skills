@@ -48,7 +48,7 @@ Based on feedback:
 
 After all tasks complete and verified:
 - Announce: "I'm using the Finishing a Development Branch skill to complete this work."
-- Switch to skills/collaboration/finishing-a-development-branch
+- Switch to skills/finishing-a-development-branch
 - Follow that skill to verify tests, present options, execute choice
 
 ## When to Stop and Ask for Help
