@@ -9,7 +9,7 @@ version: 4.0.2
 
 ## Critical Rules
 
-1. **Use Read tool before announcing skill usage.** The session-start hook does NOT read skills for you. Announcing without calling Read = lying.
+1. **Use Skill tool before announcing skill usage.** The session-start hook does NOT load skills for you. Announcing without using Skill tool = lying.
 
 2. **Follow mandatory workflows.** Brainstorming before coding. Check for skills before ANY task.
 
@@ -22,15 +22,15 @@ version: 4.0.2
 
 **2. If relevant skill exists, YOU MUST use it:**
 
-- Use Read tool with full path: `~/.claude/skills/category/skill-name/SKILL.md`
-- Read ENTIRE file, not just frontmatter
-- Announce: "I've read [Skill Name] skill and I'm using it to [purpose]"
+- Use Skill tool with skill name: `command: "skill-name"`
+- The skill will load automatically into context
+- Announce: "I'm using the [Skill Name] skill to [purpose]"
 - Follow it exactly
 
 **Don't rationalize:**
-- "I remember this skill" - Skills evolve. Read the current version.
-- "Session-start showed it to me" - That was using-skills/SKILL.md only. Read the actual skill.
-- "This doesn't count as a task" - It counts. Find and read skills.
+- "I remember this skill" - Skills evolve. Use the current version.
+- "Session-start showed it to me" - That was using-skills/SKILL.md only. Use the actual skill.
+- "This doesn't count as a task" - It counts. Find and use skills.
 
 **Why:** Skills document proven techniques that save time and prevent mistakes. Not using available skills means repeating solved problems and making known errors.
 
@@ -52,18 +52,18 @@ If a skill has a checklist, YOU MUST create TodoWrite todos for EACH item.
 
 ## Announcing Skill Usage
 
-After you've read a skill with Read tool, announce you're using it:
+After you've used the Skill tool to load a skill, announce you're using it:
 
-"I've read the [Skill Name] skill and I'm using it to [what you're doing]."
+"I'm using the [Skill Name] skill to [what you're doing]."
 
 **Examples:**
-- "I've read the Brainstorming skill and I'm using it to refine your idea into a design."
-- "I've read the Test-Driven Development skill and I'm using it to implement this feature."
-- "I've read the Systematic Debugging skill and I'm using it to find the root cause."
+- "I'm using the Brainstorming skill to refine your idea into a design."
+- "I'm using the Test-Driven Development skill to implement this feature."
+- "I'm using the Systematic Debugging skill to find the root cause."
 
-**Why:** Transparency helps your human partner understand your process and catch errors early. It also confirms you actually read the skill.
+**Why:** Transparency helps your human partner understand your process and catch errors early. It also confirms you actually loaded the skill.
 
-## How to Read a Skill
+## Understanding Skill Structure
 
 Every skill has the same structure:
 
@@ -93,10 +93,10 @@ Your human partner's specific instructions describe WHAT to do, not HOW.
 
 **Starting any task:**
 1. Run find-skills to check for relevant skills
-2. If relevant skill exists → Use Read tool with full path (includes /SKILL.md)
+2. If relevant skill exists → Use Skill tool with skill name
 3. Announce you're using it
 4. Follow what it says
 
 **Skill has checklist?** TodoWrite for every item.
 
-**Finding a relevant skill = mandatory to read and use it. Not optional.**
+**Finding a relevant skill = mandatory to use it. Not optional.**
